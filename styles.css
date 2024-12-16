@@ -1,0 +1,98 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            /* height: 100vh; */
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .photo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .photo img {
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #000000;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .contact {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .contact li {
+            margin: 5px 0;
+        }
+
+        .skills, .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .skills div, .hobbies div {
+            margin: 5px;
+            padding: 10px 15px;
+            background: #e0f7fa;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #888;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form input[type="submit"] {
+            background-color: #2ea2ea;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
